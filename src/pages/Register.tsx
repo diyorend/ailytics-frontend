@@ -47,7 +47,7 @@ const Register = () => {
               Create Account
             </h1>
             <p className="text-gray-600 dark:text-gray-400">
-              Start your journey with AI SaaS
+              Start your journey with DashGPT
             </p>
           </div>
 
@@ -162,7 +162,7 @@ const Register = () => {
         </div>
 
         <p className="text-center text-sm text-gray-500 dark:text-gray-500 mt-8">
-          © 2024 AI SaaS Dashboard. All rights reserved.
+          © 2026 DashGPT. All rights reserved.
         </p>
       </div>
     </div>

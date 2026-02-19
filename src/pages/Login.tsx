@@ -133,7 +133,7 @@ const Login = () => {
         </div>
 
         <p className="text-center text-sm text-gray-500 dark:text-gray-500 mt-8">
-          © 2024 AI SaaS Dashboard. All rights reserved.
+          © 2026 DashGPT. All rights reserved.
         </p>
       </div>
     </div>

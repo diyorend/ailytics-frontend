@@ -3,7 +3,7 @@
   "configVersion": 1,
   "workspaces": {
     "": {
-      "name": "ai-saas-dashboard-frontend",
+      "name": "dashgpt-frontend",
       "dependencies": {
         "lucide-react": "^0.307.0",
         "react": "^18.2.0",

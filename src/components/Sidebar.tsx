@@ -24,7 +24,7 @@ const Sidebar = () => {
     <>
       <div className="p-6 border-b border-gray-200 dark:border-dark-border">
         <h1 className="text-2xl font-bold bg-gradient-to-r from-primary-500 to-primary-700 bg-clip-text text-transparent">
-          AI SaaS
+          DashGPT
         </h1>
         <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">Dashboard</p>
       </div>
@@ -35,11 +35,10 @@ const Sidebar = () => {
             key={item.path}
             to={item.path}
             onClick={() => setIsMobileOpen(false)}
-            className={`flex items-center gap-3 px-4 py-3 rounded-lg transition-all duration-200 ${
-              isActive(item.path)
+            className={`flex items-center gap-3 px-4 py-3 rounded-lg transition-all duration-200 ${isActive(item.path)
                 ? 'bg-primary-50 dark:bg-primary-900/20 text-primary-600 dark:text-primary-400'
                 : 'text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-dark-hover'
-            }`}
+              }`}
           >
             <item.icon className="w-5 h-5" />
             <span className="font-medium">{item.label}</span>
