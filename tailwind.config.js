@@ -27,6 +27,9 @@ export default {
           hover: '#1a1a24',
         }
       },
+      borderColor: {
+        border: '',
+      },
       fontFamily: {
         sans: ['Inter var', 'system-ui', 'sans-serif'],
         display: ['Clash Display', 'Inter var', 'system-ui', 'sans-serif'],
@@ -48,5 +51,14 @@ export default {
       },
     },
   },
-  plugins: [],
+ plugins: [
+    function ({ addUtilities }) {
+      addUtilities({
+        '.border-border': {
+          borderWidth: '0px',
+          borderColor: '', 
+        },
+      })
+    },
+  ],
 }
